@@ -1,1 +1,0 @@
-import{h as t}from"./http.BKV-_WDr.js";const a=()=>t.get("/dep/all"),e=(a,e={})=>t.get("/patient/consult/order/pre",{params:{type:a,...e}}),r=a=>t.post("/patient/consult/order",a),s=a=>t.get("/patient/consult/order/detail",{params:{orderId:a}}),o=a=>t.get("/patient/consult/order/list",{params:a});export{r as c,a as d,s as g,o,e as p};

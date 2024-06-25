@@ -1,0 +1,1 @@
+import{h as t}from"./http.BtQMKx8L.js";const a=a=>t.post("/patient/add",a),e=a=>t.get("/patient/mylist"),p=a=>t.delete(`/patient/del/${a}`),s=a=>t.get(`/patient/info/${a}`),i=a=>t.put("/patient/update",a);export{a,e as b,p as c,s as p,i as u};

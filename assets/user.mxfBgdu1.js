@@ -1,0 +1,1 @@
+import{h as s}from"./http.BtQMKx8L.js";const t=t=>s.get("/code",{params:t}),o=t=>s.post("/login",t),a=t=>s.post("/login/password",t),p=()=>s.get("/patient/myUser"),n=t=>s.post("/login/thirdparty",t),i=t=>s.post("/login/binding",t),r=t=>s.put(`/unbound/${t}`);export{n as Q,a,r as b,i as c,o as l,p as u,t as v};
